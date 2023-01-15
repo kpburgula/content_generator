@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Git Commands</h1>
+        <hr />
+        <h3>Create a repository</h3><code>git init </code>
+        <h3>Check status</h3><code>git status </code>
+        <h3>Add a file - </h3><code>git add &lt;file name&gt; or git add * </code>
+        <h3>After staging, to commit</h3><code>git commit -m &lt;add comments&gt; </code>
+        <h3>Pushing the changes to remote repository</h3>
+        <code>git remote add origin &quot;&lt;URL to the repository&gt;&quot; </code>
+        <h3>Push the files </h3><code>git push origin &lt;name of the branch&gt; </code>
+        <h3>Clone the repository</h3><code>git clone &lt;URL&gt; </code>
+        <h3>Pull the repository</h3><code>git pull origin master </code>
+        <h3>To create new branch from an existing branch</h3><code>git branch &lt;name of the new branch&gt;</code>
+        <h3>To delete a branch</h3><code>git branch -D &lt;name of the branch to be deleted&gt; </code>
+        <h3>Switch btw branches</h3><code>git checkout &lt;name of the branch&gt; </code>
+        <h3>Checking the logs or history of the repository (logs of that particular branch) </h3><code>git log </code>
+        <h3>To stash your staged files without committing</h3><code>git stash </code>
+        <h3>To stash untracked files</h3><code>git stash -u </code>
+        <h3>Once you are back and want to retrieve working </h3><code>git stash pop </code>
+        <h3>Reverting a commit</h3><code>git revert &lt;commit id&gt; </code>
+        <h3>Checking the differences between two versions of a file</h3>
+        <code>git commit &lt;commit id of a&gt; &lt;commit id of b&gt;</code>
+        <h3>Merging 2 branches</h3><code>git merge &lt;branch-name&gt; --no-commit --squash </code>
+        <h3>Configuring git credentials</h3>
+        <code>git config --global user.email &lt;email&gt; &amp;&amp;  git config --global user.name &lt;userid&gt;</code>
+        <h1>Useful Topics</h1>
+        <hr />
+        <h3>To create webhooks using Github</h3>
+        <p>https://docs.github.com/en/developers/webhooks-and-events/webhooks/creating-webhooks</p>
+    </div>
+</body>
+
+</html>

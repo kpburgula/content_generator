@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Anaconda Cheatsheet</h1>
+        <hr />
+        <h3>Creating a virtual environment </h3><code>conda create --name $ENVIRONMENT_NAME </code>
+        <h3>Deactivating an environment </h3><code>conda activate $ENVIRONMENT_NAME </code>
+        <h3>Deactivating an environment </h3><code>conda deactivate $ENVIRONMENT_NAME  </code>
+        <h3>Removing an environment </h3><code>conda env remove --name $ENVIRONMENT_NAME </code>
+        <h3>Exporting to an environment  file</h3><code>conda env export &gt; $FILE_NAME </code>
+        <h3>Creating an environment from a  file </h3><code>conda env create -f $FILE_NAME </code>
+        <h3>Listing all environments </h3><code>conda info --envs </code>
+        <h3>Installing Python x.x </h3><code>conda install python=x.x  </code>
+        <h3>Updating Python </h3><code>conda update python </code>
+        <h3>Installing a package </h3><code>conda install $PACKAGE_NAME  </code>
+        <h3>Updating a package</h3><code>conda update $PACKAGE_NAME  </code>
+        <h3>Removing a package </h3><code>conda remove $PACKAGE_NAME  </code>
+        <h3>Updating conda itself </h3><code>conda update conda </code>
+        <h3>Searching for packages </h3><code>conda search $SEARCH_TERM  </code>
+        <h3>Listing installed packages in an environment</h3><code>conda list </code>
+    </div>
+</body>
+
+</html>
